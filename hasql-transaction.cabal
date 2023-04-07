@@ -66,4 +66,4 @@ test-suite conflicts-test
     rerebase >=1.11 && <2
   mixins:
     hasql hiding (Hasql.Session),
-    hasql-api (Hasql.Api.Eff.Session as Hasql.Session)
+    hasql-api (Hasql.Api.Eff.Session.Legacy as Hasql.Session)
